@@ -1,0 +1,36 @@
+body {
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  transition: 0.3s;
+}
+
+.sobre-section {
+  background: #fefefe;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sobre-section h4 {
+  font-weight: 600;
+}
+
+.sobre-section .box {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.sobre-section .box:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.tamanhoimg{
+  width: 100%;
+  height: 100%;
+}
